@@ -1,4 +1,4 @@
-var movies = require('./movies');
+var movies = require('./movies8');
 movies.avatar();
 
 // Summary: You can create modules in separate js files. To import them into your main file you first have to use module.exports and set it equalto what you want to export. In movies.js there are only two functions written, however, only the first function is exported because of the code 'module.exports.avatar = printAvatar'. In this file, we most connect the module. To do this we set a variable equal to require(./movies). The './' tells NodeJS to check for the file in the same folder as the current file. You do not need to put the file extension hence: var movies = require('./movies'); Now this file can access the function avatar() from movie.js.
