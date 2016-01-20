@@ -19,3 +19,5 @@ var printBacon = function() {
 printBacon();
 
 setTimeout(printBacon, 5000);
+
+// Summary: Going over basics of JavaScript including JavaScript objects, output of a console.log(function) which is what it returns, executing a function, assiging an anonymous function to a variable and using setTimeout.
