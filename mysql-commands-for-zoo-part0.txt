@@ -1,0 +1,13 @@
+/usr/local/bin/mysql
+
+/usr/local/var/mysql/ -u root -p zoo_db < /Users/darrylmendonez/Documents/rcb/RCB_Classwork/homework/zoo/zooDB.sql
+
+/Users/darrylmendonez/Documents/rcb/RCB_Classwork/homework/zoo
+
+sudo chown -R `whoami` /usr/local           // Permission denied when importing the mysql file on a MAC
+
+mysql -u root -p zoo_db < /Users/darrylmendonez/Documents/rcb/RCB_Classwork/homework/zoo/zooDB.sql
+
+mysql -uroot // Starts up mysql
+
+SET PASSWORD FOR 'root'@'localhost' = PASSWORD(''); // Changes root password to nothing. When the password prompt comes up, write the password for root.
